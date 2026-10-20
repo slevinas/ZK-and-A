@@ -1,0 +1,11 @@
+.DS_Store
+Invoices/
+
+# Exclude all docs by default
+docs/*
+
+# Allow only these
+!docs/local-climate-data/
+docs/local-climate-data/*
+!docs/local-climate-data/climate-chart.html
+!docs/local-climate-data/climate-data-for-our-area.md
